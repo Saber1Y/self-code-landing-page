@@ -1,0 +1,71 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.Class__Navbar {
+  margin: 20px;
+}
+.Navbar__List > ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #434a54;
+  opacity: 0.8;
+}
+.Get-started {
+  border-radius: 8px;
+  border-color: #4568f9;
+  color: #4568f9;
+  font-family: ;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+}
+.header__text--main {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+.color__text {
+  width: 321px;
+  height: 26px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ff9900;
+}
+.header__text {
+  width: 645px;
+  height: 240px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #434a54;
+}
+.header__list {
+  width: 533px;
+  height: 128px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #434a54;
+}
+.Order-Now {
+  background-color: blue;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 14px;
+}
