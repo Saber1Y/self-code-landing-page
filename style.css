@@ -69,3 +69,51 @@
   text-align: center;
   font-size: 14px;
 }
+.content__Text {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 32px;
+  color: #434a54;
+}
+.content__txt {
+  width: 645px;
+  height: 104px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #091e3f;
+}
+.hero__content--text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.hero__content {
+  width: 887px;
+  height: 110px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  color: #434a54;
+}
+.Health__Reports {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 1px 2px;
+  margin-top: 140px;
+  color: #434a54;
+}
+.hero__image {
+  margin-top: 100px;
+  width: 1322px;
+}
