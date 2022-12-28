@@ -100,7 +100,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 50px;
+  line-height: 55px;
   color: #434a54;
 }
 .Health__Reports {
@@ -115,18 +115,19 @@
 .hero__image {
   margin-top: 100px;
   width: 1322px;
+  margin: 100px;
 }
 .hero__content--last {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 35px;
   color: #091e3f;
 }
 .hero__content--card {
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-left: 100px;
   line-height: 30px;
 }
 .hero__content--main {
@@ -140,25 +141,41 @@
   color: #434a54;
   /* line-height: 32px; */
 }
+.hero__card--img {
+  width: 958px;
+  height: 525px;
+  position: relative;
+  left: 120px;
+}
 .hero__img {
   margin-top: 200px;
 }
 .hero__card--header {
   display: flex;
   justify-content: space-between;
+  margin: 100px;
 }
 .hero__card {
+  margin-top: 50px;
   line-height: 40px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 55px;
   color: #434a54;
+}
+.hero__mini--txt {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #5c6776;
+  line-height: 5px;
 }
 .middle__content--text {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 200px;
+  justify-content: space-between;
+  margin: 50px;
 }
 .middle__content {
   font-family: "DM Sans";
@@ -176,10 +193,20 @@
   line-height: 50px;
   color: #5c6776;
 }
+.middle__content--image {
+  width: 857px;
+  height: 598.48px;
+  position: relative;
+  left: 130px;
+  bottom: 120px;
+}
 .middle__content--img {
   margin-top: 100px;
   width: 2220px;
   height: 502px;
+}
+.center__content--image {
+  margin-top: 120px;
 }
 .end__content--image {
   margin-top: 200px;
