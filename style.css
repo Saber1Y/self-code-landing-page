@@ -29,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   margin: 80px;
+  background-color: #f0fcff;
 }
 .color__text {
   width: 321px;
@@ -64,13 +65,20 @@
   border-radius: 8px;
   border: none;
   color: white;
-  padding: 15px 20px;
+  padding: 14px 31px;
   text-align: center;
   font-size: 14px;
 }
+.head__image--img {
+  width: 675px;
+  position: relative;
+  bottom: 85px;
+}
 .content__Text {
   display: flex;
+  align-content: center;
   justify-content: space-between;
+  margin: 80px;
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -87,6 +95,18 @@
   font-size: 30px;
   line-height: 55px;
   color: #091e3f;
+}
+.content__text--primary {
+  /* margin-left: 168px; */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #434a54;
+}
+.Content__video {
+  margin-left: 123px;
 }
 .hero__content--text {
   display: flex;
@@ -148,12 +168,14 @@
   left: 120px;
 }
 .hero__img {
-  margin-top: 200px;
+  margin-top: 150px;
+  width: 100px;
 }
 .hero__card--header {
   display: flex;
   justify-content: space-between;
   margin: 100px;
+  margin-bottom: 200px;
 }
 .hero__card {
   margin-top: 50px;
@@ -168,7 +190,7 @@
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 19px;
   color: #5c6776;
   line-height: 5px;
 }
@@ -204,6 +226,43 @@
   margin-top: 100px;
   width: 2220px;
   height: 502px;
+}
+.Text__Container {
+  position: relative;
+  margin: 30px;
+  left: 16px;
+  top: 12px;
+  color: white;
+}
+.Top-Left {
+  margin-left: 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.Top__Text--Big {
+  position: relative;
+  top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+}
+.middle__Text--Big {
+  margin-left: 40px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.center__content--img {
+  position: relative;
+  bottom: 356px;
+  left: 500px;
 }
 .center__content--image {
   margin-top: 120px;
